@@ -12,7 +12,9 @@ body {
 }
 
 body {
+    color: #213fd9;
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-image: url('../images/background/old_map/old_map.png');
 }
 
 .img-portfolio {
@@ -22,6 +24,20 @@ body {
 .img-hover:hover {
     opacity: 0.8;
 }
+
+.navbar {
+    background-color: #be9341;
+    /*background-image: url('../images/background/old_map/old_map.png');*/
+}
+.navbar-inverse .navbar-brand {
+    color: #213fd9;
+}
+.navbar-inverse .navbar-nav>li>a {
+   color: #213fd9; 
+}
+/*li {
+    color: #213fd9;
+}*/
 
 /* Home Page Carousel */
 
@@ -65,6 +81,10 @@ header.carousel .fill {
 .period {
     display: block;
     font-style: italic;
+}
+
+.page-header {
+    text-align: center;
 }
 
 /* Footer Styles */
