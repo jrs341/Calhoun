@@ -12,9 +12,17 @@ body {
 }
 
 body {
-    color: #213fd9;
+    /*color: #213fd9;*/
+    font-family: adobe-garamond-pro;
+    /*line-height: 2;*/
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     background-image: url('../images/background/old_map/old_map.png');
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.6em;
+    color: #5a4130; 
 }
 
 .img-portfolio {
@@ -26,14 +34,23 @@ body {
 }
 
 .navbar {
-    background-color: #be9341;
-    /*background-image: url('../images/background/old_map/old_map.png');*/
+    /*background-color: rgb(233, 225, 175);*/
+    /*background-color: #be9341;*/
+    background-image: url('../images/background/old_map/old_map.png');
 }
 .navbar-inverse .navbar-brand {
     color: #213fd9;
+    font-size: 1.8em;
 }
 .navbar-inverse .navbar-nav>li>a {
-   color: #213fd9; 
+   color: #5a4130; 
+   font-size: 1.2em;
+   display: inline-block;
+}
+
+#logo {
+    height: 20px;
+    width: 20px;
 }
 /*li {
     color: #213fd9;
@@ -85,6 +102,7 @@ header.carousel .fill {
 
 .page-header {
     text-align: center;
+     color: #5a4130; 
 }
 
 /* Footer Styles */
